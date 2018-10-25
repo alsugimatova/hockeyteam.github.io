@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria.eot');
+    src: url('../fonts/Geometria.eot') format('embedded-opentype'),
+         url('../fonts/Geometria.woff2') format('woff2'),
+         url('../fonts/Geometria.woff') format('woff'),
+         url('../fonts/Geometria.ttf') format('truetype'),
+         url('../fonts/Geometria.svg#Geometria') format('svg');
+}
+@font-face {
+    font-family: 'GeometriaMedium';
+    src: url('../fonts/GeometriaMedium.eot');
+    src: url('../fonts/GeometriaMedium.eot') format('embedded-opentype'),
+         url('../fonts/GeometriaMedium.woff2') format('woff2'),
+         url('../fonts/GeometriaMedium.woff') format('woff'),
+         url('../fonts/GeometriaMedium.ttf') format('truetype'),
+         url('../fonts/GeometriaMedium.svg#GeometriaMedium') format('svg');
+}
+body {
+	-webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.logo {
+	margin-top: 30px;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21pt;
+	font-weight: 600;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 42pt;
+	font-weight: 900;
+	color: #bb2513;
+	}
+
+.club {
+	margin-left: 53px;
+	margin-top: 75px;
+}
+
+.team {
+	margin-left: 20px;
+	margin-top: 49px;
+
+}
+
+#nav_menu {
+	background-color: #bb2513;
+	height: 63px;
+	margin-top: 60px;
+
+}
+nav {
+	margin-left: -80px;
+	
+}
+nav li {
+	display: inline;
+	
+}
+
+li a {
+	padding: 11px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+
+nav a {  
+	font-family: 'GeometriaMedium', sans-serif;
+	font-size: 18pt;
+    color: #ffffff;  
+    display: inline-block;  
+    text-decoration: none;  
+    line-height: 40px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;       
+}
+a:hover  {
+
+
+	    color: #ffffff;
+    	background-color: #d85242;
+    	text-decoration: none;
+    }
+
+#sliders {	
+	background-color: #e8e8e8;
+	height: 797px;
+}
+
+.slider1 p {
+	font-family: 'Geometria', sans-serif;
+	font-size: 12pt;
+    color: #ffffff;
+}
+
+.slider1 h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18pt;
+	font-weight: 800;
+	color: #ffffff;
+}
+.slider1 img {
+	margin-top: -510px;
+
+}
+.news1 {
+	background-color: #bb2513;
+	margin-top: -530px;
+	margin-left: 503px;
+	padding-top: 30px;
+	padding-left: 45px;
+	width: 322px;
+	height: 144px;
+}
+.slider_bgc {
+	background-color: #191919;
+	margin-left: 92px;
+	width: 773px;
+	height: 645px;
+
+
+}
+.slider1-item {
+	height: 645px;
+	
+}
+
+.slider2_bgc {
+	background-color: #ffffff;
+	width: 300px;
+	height: 646px;
+	margin-left: -14px;
+}
+.news2 {
+	background-color: #bb2513;
+	margin-top: -500px;
+	margin-left: 438px;
+	padding-top: 30px;
+	padding-left: 45px;
+	width: 387px;
+	height: 144px;
+}
+.player2 {
+	margin-left: 180px;
+}
+.slick-active {
+	outline: none;
+}
+
+.arrow_left {
+	font-size: 17pt;
+	color: #c4c4c4; 
+	background-color: #912d22;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	margin-top: 595px;
+	margin-left: 93px;
+	z-index: 999;
+	padding-top: 15px;
+	padding-left: 13px;
+}
+.arrow_left:hover {
+	cursor: pointer;
+}
+.arrow_right {
+	font-size: 17pt;
+	color: #c4c4c4; 
+	background-color: #bb2513;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 143px;
+	z-index: 999;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.arrow_right:hover {
+	cursor: pointer;
+}
+
+
+
+h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17pt;
+	font-weight: 600;
+	padding-top: 75px;
+	padding-left: 80px;
+}
+
+.slider2 {
+	margin-top: 50px;
+}
+.box_slider2 h6 {
+	font-family: 'GeometriaMedium', sans-serif;
+	font-size: 15pt;
+	margin-top: 10px;
+	text-align: center;
+}
+.game2 p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22pt;
+	font-weight: 600;
+	margin-top: -40px;
+	margin-left: 110px;
+}
+
+.game1 {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.game3 {
+	--webkit-transform: translateY(-52px);
+	-moz-transform: translateY(-52px);
+	-ms-transform: translateY(-52px);
+	-o-transform: translateY(-52px);
+	transform: translateY(-52px);
+	margin-left: 195px;
+}
+
+.slider2-item {
+	display: inline;
+	height: 130px;
+	width: 300px;
+}
+
+
+
+.arrow_up {
+	font-size: 20px;
+	margin-left: 120px;
+	--webkit-transform: translateY(-30px);
+	-moz-transform: translateY(-30px);
+	-ms-transform: translateY(-30px);
+	-o-transform: translateY(-30px);
+	transform: translateY(-30px);
+
+}
+.arrow_up:hover {
+	cursor: pointer;
+
+}
+.arrow_down {
+	font-size: 20px;
+	margin-top: -32px;
+	margin-left: 120px;
+	position: absolute;
+}
+.arrow_down:hover {
+	cursor: pointer;
+}
